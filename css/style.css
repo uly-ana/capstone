@@ -1,16 +1,24 @@
-.navbar {
- height: 64px;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+.row no-gutters{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.navbar-brand {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
+#nav {
     height: 64px;
-    padding-bottom: 16px;
+    padding: 16px;    
+}
 
+.navbar {
+    padding: 0px 0px; 
+    height: 32px;
+}
+
+.nav-link {
+    padding: 0px 8px;
+    height: 32px;
+}
+
+
+#banner {
+    padding: 32px 24px;   
 }
