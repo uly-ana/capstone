@@ -89,3 +89,8 @@ padding: 8% 0;
 .card-body-vertical p {
     font-size: 12px;
 }
+
+.footer {
+    padding: 16px 24px 16px 24px;
+    font-size: 14px;
+}
