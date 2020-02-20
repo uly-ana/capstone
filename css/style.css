@@ -55,11 +55,15 @@
 }
 
 .card-body {
-padding: 16px 16px 16px 0px;
+    padding: 16px 16px 16px 0px;
 }
 
 .aligner {
-padding: 8% 0;
+    padding: 8% 0;
+}
+
+#button-mobile {
+    padding-left: 24px;
 }
 
 #custom-padding {
@@ -95,41 +99,63 @@ padding: 8% 0;
     font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
-  #hide {
-    display: none;
-  }
-
-  #card-text-second {
-    display: none;
-  }
-
-  #images {
-      padding: 0px 0px;
-  }
-
-    #mobile-padding {
-    padding-bottom:  16px;
-    margin-top: 32px;
+@media only screen and (max-width: 576px) {
+    #hide {
+        display: none;
     }
 
-.embed-responsive {
-    margin-bottom: 24px;
-}
+    #card-text-second {
+        display: none;
+    }
 
+    #images {
+        padding: 0px 0px;
+    }
 
-#custom-padding {
-    padding: 0px 0px 0px 0px;
-  }
+    #mobile-padding {
+        padding-bottom:  16px;
+        margin-top: 32px;
+    }
 
-  .card-vertical {
-    width: 100%;
-    height: 60px;
-    text-align: left;
-    background-color: rgb(207, 207, 207);
-    margin: 4px 16px;
-    border-top: darkblue;
-}
+    .embed-responsive {
+        margin-bottom: 24px;
+    }
 
+    #custom-padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .card-vertical {
+        width: 100%;
+        height: 60px;
+        text-align: left;
+        background-color: rgb(207, 207, 207);
+        margin: 4px 16px;
+    }
+
+    .card-img {
+        padding: 16px 16px;
+    }
+
+    #column-mobile {
+        margin-left: -16px;
+    }
+
+    #card-mobile {
+        border: none;
+        padding-bottom: 32px;
+    }
+    
+    .aligner {
+        padding: 0px 32px;
+    }
+
+    .jumbotron {
+        padding: 0px 0px 32px 0px;
+    }
+
+    #button-mobile {
+        padding: 32px 16px 0px 16px;
+    }
 
 }

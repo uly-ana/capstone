@@ -14,7 +14,7 @@
         <div class="row no-gutters bg-white">
                 <nav class="navbar navbar-expand-lg navbar-light col-4" id="nav">
                      <a class="navbar navbar-brand" href="#" alt="logo"><img src="capstone_colmar_assets/images/ic-logo.svg">
-                        <text class="text-dark">COLMAR</text><text class="text-muted">ACADEMY</text>
+                        <text class="text-dark" id="hide">COLMAR</text><text class="text-muted" id="hide">ACADEMY</text>
                     </a>
                 </nav>
                 <ul class="nav justify-content-end col-8" id="nav">
@@ -38,7 +38,7 @@
                         <div class="col-sm-7">
                             <img src="capstone_colmar_assets/images/banner.jpg" class="img-fluid">
                         </div>
-                        <div class="col-sm-5 aligner" style="padding-left: 24px;">
+                        <div class="col-sm-5 aligner" id="button-mobile">
                             <h1 class="font-weight-bold">Learn something <br> new everyday </h1>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -64,11 +64,14 @@
                                 </footer>
                             </blockquote>
                         </div>
-                        <div class="col-sm-5">
-                             <div class="card mx-3 mb-0 w-100">
+                        <div class="col-sm-5 w-100" id="column-mobile">
+                             <div class="card mx-3 mb-0 w-100" id="card-mobile">
                                 <div class="row no-gutters">
                                     <div class="col-md-4">
-                                        <img src="capstone_colmar_assets/images/information-orientation.jpg" class="card-img" alt="Orientation">
+                                        <picture>
+                                            <source media="(max-width: 576px)" srcset="capstone_colmar_assets/images/information-orientation-mobile.jpg">
+                                        <img src="capstone_colmar_assets/images/information-orientation.jpg"  class="card-img" alt="Orientation">
+                                        </picture>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body aligner">
@@ -79,10 +82,13 @@
                                     </div>
                                 </div>
                             </div>
-                        <div class="card mx-3 mb-0 w-100">
+                        <div class="card mx-3 mb-0 w-100" id="card-mobile">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="capstone_colmar_assets/images/information-campus.jpg" class="card-img" alt="...">
+                                    <picture>
+                                        <source media="(max-width: 576px)" srcset="capstone_colmar_assets/images/information-campus-mobile.jpg">
+                                    <img src="capstone_colmar_assets/images/information-campus.jpg" class="card-img" alt="PIcture of cumpus">
+                                    </picture>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body aligner">
@@ -93,10 +99,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card mx-3  mb-0 w-100">
+                        <div class="card mx-3  mb-0 w-100" id="card-mobile">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <img src="capstone_colmar_assets/images/information-guest-lecture.jpg" class="card-img" alt="...">
+                                    <picture>
+                                        <source media="(max-width: 576px)" srcset="capstone_colmar_assets/images/information-guest-lecture-mobile.jpg">
+                                    <img src="capstone_colmar_assets/images/information-guest-lecture.jpg" class="card-img" alt="Picture of guest">
+                                    </picture>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body aligner">
@@ -110,11 +119,10 @@
                     </div>   
                 </div>
             </div>
-        </div> 
-        
+        </div>       
     <div class="container no-gutters bg-light mw-100" id="custom-padding">
         <div class="row no-gutters">
-            <div class="col-md-12">
+            <div class="col-md-12" id="mobile-padding">
                 <h3 class="text-dark text-center mb-0" style="padding-bottom: 16px;">Start learning</h3>
             </div>
         </div>
@@ -236,8 +244,6 @@
                             </div>
                         </div>  
                     </div>
-
-
                 </div>
             </div>
         </div>
