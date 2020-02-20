@@ -99,6 +99,11 @@
     font-size: 14px;
 }
 
+@media only screen and (min-width: 576px) {
+ #icons {
+        display: none;
+    }
+}
 @media only screen and (max-width: 576px) {
     #hide {
         display: none;
@@ -158,4 +163,7 @@
         padding: 32px 16px 0px 16px;
     }
 
+    .nav-item {
+        margin-left: 24px;
+    }
 }
